@@ -1,9 +1,9 @@
 # Write your code here.
 speakers=["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
-def badge_maker (name)
-  name.each do |speaker|
-    "Hello, my name is #{speaker}."
+def badge_maker (speakers)
+  name.each do |name|
+    "Hello, my name is #{name}."
   end
 end
 
