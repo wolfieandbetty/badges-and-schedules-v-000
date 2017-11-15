@@ -1,16 +1,14 @@
 # Write your code here.
 speakers=["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
-def badge_maker (speaker)
+def badge_maker (speakers)
 "Hello, my name is #{name}."
   end
 
-def batch_badge_creator (name)
-  new_array=[]
-  name.each do |speaker|
-    new_array << ("Hello, my name is #{speaker}.")
+def batch_badge_creator (speakers)
+  speaker.map do |name|
+    "Hello, my name is #{speakers}."
   end
-   new_array
 end
 
 def assign_rooms(speakers)
