@@ -5,6 +5,7 @@ def badge_maker (speakers)
   speakers.each do |name|
     "Hello, my name is #{name}."
   end
+  badge_maker
 end
 
 def batch_badge_creator (name)
