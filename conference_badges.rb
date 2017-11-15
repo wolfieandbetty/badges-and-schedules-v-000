@@ -2,7 +2,7 @@
 speakers=["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
 def badge_maker (speakers)
-  name.each do |name|
+  speakers.each do |name|
     "Hello, my name is #{name}."
   end
 end
