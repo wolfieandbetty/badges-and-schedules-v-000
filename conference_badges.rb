@@ -7,7 +7,7 @@ def badge_maker (name)
   end
 end
 
-def badge_creator (name)
+def batch_badge_creator (name)
   new_array=[]
   name.each do |speaker|
     new_array << ("Hello, my name is #{speaker}.")
