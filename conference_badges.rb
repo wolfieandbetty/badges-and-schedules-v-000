@@ -14,3 +14,12 @@ def batch_badge_creator (name)
   end
    new_array
 end
+
+def assign_rooms(speakers)
+  room_num=1
+  speakers.each do |name|
+    "Hello, #{name}! You'll be assigned to room #{room_num}!" 
+  room_num+=1
+  end
+end
+  
